@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heaven's Flight - Official Game Site</title>
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --primary-glow: rgba(79, 70, 229, 0.4);
+            --bg-dark: #0f172a;
+            --bg-card: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            text-align: center;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero-badge {
+            background: rgba(99, 102, 241, 0.15);
+            color: #818cf8;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            border: 1px solid rgba(129, 140, 248, 0.3);
+        }
+        h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 800;
+            margin-bottom: 16px;
+            background: linear-gradient(to right, #ffffff, #93c5fd);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p.subtitle {
+            font-size: clamp(1rem, 2vw, 1.25rem);
+            color: var(--text-muted);
+            max-width: 600px;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            background-color: #4f46e5;
+            color: white;
+            text-decoration: none;
+            padding: 14px 32px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            box-shadow: 0 10px 25px -5px var(--primary-glow);
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #4338ca;
+            transform: translateY(-2px);
+            box-shadow: 0 15px 30px -5px rgba(79, 70, 229, 0.6);
+        }
+        footer {
+            padding: 20px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 14px;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        footer a {
+            color: var(--text-muted);
+            text-decoration: none;
+            margin: 0 12px;
+            transition: color 0.2s;
+        }
+        footer a:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero-badge">Now Available on Google Play</div>
+        <h1>Heaven's Flight</h1>
+        <p class="subtitle">Soar beyond the clouds, navigate treacherous skies, and master your flight in this thrilling mobile adventure by Starvessa.</p>
+        <a href="https://play.google.com/store/apps/details?id=com.starvessa.heavensflight" class="cta-button" target="_blank">Download on Google Play</a>
+    </div>
+    <footer>
+        <p>&copy; 2026 Starvessa. All rights reserved.</p>
+        <div style="margin-top: 10px;">
+            <a href="privacy.html">Privacy Policy</a> &bull; 
+            <a href="terms.html">Terms of Service</a>
+        </div>
+    </footer>
+</body>
+</html>
